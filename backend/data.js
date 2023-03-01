@@ -3,13 +3,13 @@ import bcrypt from 'bcryptjs';
 const data = {
   users: [
     {
-      name: 'Basir',
+      name: 'Tural',
       email: 'admin@example.com',
       password: bcrypt.hashSync('123456'),
       isAdmin: true,
     },
     {
-      name: 'John',
+      name: 'Ali',
       email: 'user@example.com',
       password: bcrypt.hashSync('123456'),
       isAdmin: false,
@@ -18,23 +18,23 @@ const data = {
   products: [
     {
       // _id: '1',
-      name: 'Nike Slim shirt',
-      slug: 'nike-slim-shirt',
-      category: 'Shirts',
-      image: '/images/p1.jpg', // 679px × 829px
+      name: 'LuquiMoly',
+      slug: 'LuquiMoly',
+      category: 'Oil',
+      image: '/images/liquimoly.jpg', // 679px × 829px
       price: 120,
       countInStock: 10,
       brand: 'Nike',
       rating: 4.5,
       numReviews: 10,
-      description: 'high quality shirt',
+      description: 'high quality',
     },
     {
       // _id: '2',
-      name: 'Adidas Fit Shirt',
-      slug: 'adidas-fit-shirt',
-      category: 'Shirts',
-      image: '/images/p2.jpg',
+      name: 'LuquiMoly',
+      slug: 'LuquiMoly',
+      category: 'Oil',
+      image: '/images/liquimoly.jpg',
       price: 250,
       countInStock: 0,
       brand: 'Adidas',
@@ -44,10 +44,10 @@ const data = {
     },
     {
       // _id: '3',
-      name: 'Nike Slim Pant',
-      slug: 'nike-slim-pant',
-      category: 'Pants',
-      image: '/images/p3.jpg',
+      name: 'Castrol',
+      slug: 'Castrol',
+      category: 'Oil',
+      image: '/images/castrol.jpeg',
       price: 25,
       countInStock: 15,
       brand: 'Nike',
@@ -57,10 +57,10 @@ const data = {
     },
     {
       // _id: '4',
-      name: 'Adidas Fit Pant',
-      slug: 'adidas-fit-pant',
+      name: 'Castrol',
+      slug: 'Castrol',
       category: 'Pants',
-      image: '/images/p4.jpg',
+      image: '/images/amsoil.jpeg',
       price: 65,
       countInStock: 5,
       brand: 'Puma',
